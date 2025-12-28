@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FaPython, FaWhatsapp, FaRobot, FaChartLine, FaEye, FaVideo } from "react-icons/fa";
-import { SiOpencv, SiJavascript, SiHtml5, SiCss3 } from "react-icons/si";
-import { MdComputer, MdAutoAwesome, MdPets, MdVideocam } from "react-icons/md";
+import { FaPython, FaWhatsapp, FaRobot, FaChartLine, FaEye, FaVideo, FaPhp, FaDatabase, FaHeartbeat } from "react-icons/fa";
+import { SiOpencv, SiJavascript, SiHtml5, SiCss3, SiMysql, SiFastapi, SiPostgresql } from "react-icons/si";
+import { MdComputer, MdAutoAwesome, MdPets, MdVideocam, MdDashboard, MdSecurity } from "react-icons/md";
 
 type ProjectCardProps = {
   title: string;
@@ -12,12 +12,15 @@ type ProjectCardProps = {
   link: string;
   tech: string;
   date: string;
+  isConfidential?: boolean;
 };
 
 const projectIcons: Record<string, any> = {
   "Real-Time Hand Tracking & Virtual Watch Overlay": [SiOpencv, FaEye, FaPython, MdVideocam],
   "Digital Animal Care & Emergency Response Platform": [MdPets, FaWhatsapp, FaRobot, SiJavascript],
   "Python Automation & Data Processing Scripts": [FaPython, MdAutoAwesome, FaChartLine, MdComputer],
+  "EEMS Dashboard": [FaPhp, SiMysql, MdDashboard, FaDatabase],
+  "AyuSangam": [SiFastapi, FaPython, FaHeartbeat, SiPostgresql],
 };
 
 export const ProjectCard = ({
@@ -26,6 +29,7 @@ export const ProjectCard = ({
   link,
   tech,
   date,
+  isConfidential = false,
 }: ProjectCardProps) => {
   const icons = projectIcons[title] || [MdComputer];
 
@@ -51,19 +55,33 @@ export const ProjectCard = ({
           <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
           
           {/* Icon Header */}
-          <div className="relative flex items-center justify-center gap-3 md:gap-4 p-6 md:p-7 bg-gradient-to-r from-purple-500/15 to-cyan-500/15 border-b border-purple-500/30 group-hover:from-purple-500/25 group-hover:to-cyan-500/25 transition-all duration-500">
-            {icons.map((Icon: any, idx: number) => (
+          <div className="relative flex items-center justify-between gap-3 md:gap-4 p-6 md:p-7 bg-gradient-to-r from-purple-500/15 to-cyan-500/15 border-b border-purple-500/30 group-hover:from-purple-500/25 group-hover:to-cyan-500/25 transition-all duration-500">
+            <div className="flex items-center gap-3 md:gap-4">
+              {icons.map((Icon: any, idx: number) => (
+                <motion.div
+                  key={idx}
+                  initial={{ scale: 0, rotate: -90 }}
+                  whileInView={{ scale: 1, rotate: 0 }}
+                  transition={{ delay: idx * 0.08, type: "spring", stiffness: 200 }}
+                  whileHover={{ scale: 1.1 }}
+                  className="p-3 md:p-4 bg-gradient-to-br from-purple-500/25 to-cyan-500/25 rounded-xl group-hover:from-purple-500/40 group-hover:to-cyan-500/40 transition-all duration-300 shadow-lg"
+                >
+                  <Icon size={36} className="text-cyan-400 group-hover:text-cyan-300 transition-colors drop-shadow-lg" />
+                </motion.div>
+              ))}
+            </div>
+            
+            {/* Confidential Badge */}
+            {isConfidential && (
               <motion.div
-                key={idx}
-                initial={{ scale: 0, rotate: -90 }}
-                whileInView={{ scale: 1, rotate: 0 }}
-                transition={{ delay: idx * 0.08, type: "spring", stiffness: 200 }}
-                whileHover={{ scale: 1.1 }}
-                className="p-3 md:p-4 bg-gradient-to-br from-purple-500/25 to-cyan-500/25 rounded-xl group-hover:from-purple-500/40 group-hover:to-cyan-500/40 transition-all duration-300 shadow-lg"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                className="flex items-center gap-2 px-3 py-2 bg-red-500/20 border border-red-500/40 rounded-lg backdrop-blur-sm"
               >
-                <Icon size={36} className="text-cyan-400 group-hover:text-cyan-300 transition-colors drop-shadow-lg" />
+                <MdSecurity className="text-red-400" size={20} />
+                <span className="text-xs font-bold text-red-300 uppercase tracking-wider">Confidential</span>
               </motion.div>
-            ))}
+            )}
           </div>
 
           {/* Content */}

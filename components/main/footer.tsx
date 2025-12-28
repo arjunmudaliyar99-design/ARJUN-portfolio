@@ -11,10 +11,10 @@ export const Footer = () => {
           {/* Brand Section */}
           <div className="flex flex-col space-y-4">
             <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
-              Arjun Ramasamy Mudaliyar
+             Always learning, always improving.
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Always learning, always improving.
+
             </p>
           </div>
 

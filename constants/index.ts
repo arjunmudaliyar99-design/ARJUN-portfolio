@@ -137,7 +137,8 @@ export const PROJECTS = [
     image: "/projects/project-1.webp",
     link: "https://github.com/arjunmudaliyar99-design/Real-Time-Hand-Tracking-Virtual-Watch-Overlay-Computer-Vision-",
     tech: "Python • OpenCV • MediaPipe • Computer Vision",
-    date: "June 2024 – July 2024"
+    date: "June 2024 – July 2024",
+    isConfidential: false
   },
   {
     title: "Digital Animal Care & Emergency Response Platform",
@@ -145,7 +146,26 @@ export const PROJECTS = [
     image: "/projects/project-2.webp",
     link: "https://github.com/arjunmudaliyar99-design/Digital-Animal-Care-Emergency-Response-Platform",
     tech: "HTML • CSS • JavaScript • Dialogflow • WhatsApp API",
-    date: "October 2024 – December 2024"
+    date: "October 2024 – December 2024",
+    isConfidential: false
+  },
+  {
+    title: "EEMS Dashboard",
+    description: "PHP | MySQL | Multi-Role Dashboards Educational platform with Admin/Principal/Teacher/VP/HOD dashboards for exam scheduling and examiner assignment. 🔒 personal Confidential - Demo available on request.Some of the demo file has been uploaded to this github.",
+    image: "/projects/eems-dashboard.webp",
+    link: "https://github.com/arjunmudaliyar99-design/EEMS-Dashboard---External-Examiner-Management-System",
+    tech: "PHP • MySQL • JavaScript • Bootstrap • REST API",
+    date: "In Progress",
+    isConfidential: true
+  },
+  {
+    title: "AyuSangam",
+    description: "FastAPI | PostgreSQL | Wearable Integration Gym workout tracker with HRV/RHR/sleep analytics from Whoop/Garmin wearables. Real-time progress dashboards. 🔒 Personal Project - Live demo available on request some of the file is uploaded in github for ur reference.",
+    image: "/projects/ayusangam.webp",
+    link: "https://github.com/arjunmudaliyar99-design/AyuSangam---Fitness-Health-Tracker",
+    tech: "FastAPI • Python • PostgreSQL • ML Analytics • IoT",
+    date: "In Progress",
+    isConfidential: true
   },
 ] as const;
 
@@ -199,6 +219,10 @@ export const NAV_LINKS = [
   {
     title: "Projects",
     link: "#projects",
+  },
+  {
+    title: "Contact",
+    link: "#contact",
   },
 ] as const;
 

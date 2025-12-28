@@ -11,7 +11,7 @@ export const Navbar = () => {
   const closeMenu = () => setIsMobileMenuOpen(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-[#03001427] backdrop-blur-md shadow-lg shadow-[#2A0E61]/50 z-50">
+     <nav className="fixed top-0 left-0 w-full bg-[#03001427] backdrop-blur-md shadow-lg shadow-[#2A0E61]/50 z-50">
       <div className="flex items-center justify-between h-[70px] px-5 md:px-10">
         {/* Logo & Name */}
         <Link 
@@ -32,12 +32,12 @@ export const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8 bg-[rgba(3,0,20,0.37)] px-8 py-2 rounded-full border border-[rgba(112,66,248,0.38)] text-gray-200">
+        <div className="hidden lg:flex items-center gap-6 xl:gap-8 bg-[rgba(3,0,20,0.37)] px-6 xl:px-8 py-2 rounded-full border border-[rgba(112,66,248,0.38)] text-gray-200 text-sm">
           {NAV_LINKS.map((link) => (
             <Link 
               key={link.title} 
               href={link.link} 
-              className="hover:text-[rgb(112,66,248)] transition font-medium"
+              className="hover:text-[rgb(112,66,248)] transition font-medium whitespace-nowrap"
             >
               {link.title}
             </Link>
@@ -45,7 +45,7 @@ export const Navbar = () => {
         </div>
 
         {/* Social Links (Desktop) */}
-        <div className="hidden md:flex items-center gap-5">
+        <div className="hidden lg:flex items-center gap-4 xl:gap-5">
           {SOCIALS.map(({ link, name, icon: Icon }) => (
             <Link 
               key={name} 
@@ -54,7 +54,7 @@ export const Navbar = () => {
               rel="noopener noreferrer"
               className="flex items-center"
             >
-              <Icon className="h-6 w-6 text-white hover:text-[rgb(112,66,248)] transition" />
+              <Icon className="h-5 w-5 xl:h-6 xl:w-6 text-white hover:text-[rgb(112,66,248)] transition" />
             </Link>
           ))}
         </div>

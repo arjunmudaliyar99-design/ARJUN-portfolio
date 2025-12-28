@@ -34,44 +34,44 @@ export const Encryption = () => {
   ];
 
   return (
-    <section id="about-me" className="flex flex-col relative items-center justify-center min-h-screen w-full py-12 md:py-20 px-4 md:px-6">
+    <section id="about-me" className="flex flex-col relative items-center justify-center min-h-screen w-full max-w-full overflow-hidden py-10 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8">
       {/* Section Header */}
       <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
         variants={slideInFromTop}
-        className="flex items-center gap-2 py-[8px] px-[12px] border border-[#7042f88b] opacity-[0.9] rounded-lg mb-8 md:mb-12"
+        className="flex items-center gap-2 py-2 px-3 sm:py-[8px] sm:px-[12px] border border-[#7042f88b] opacity-[0.9] rounded-lg mb-6 sm:mb-8 md:mb-10"
       >
-        <SparklesIcon className="text-[#b49bff] h-5 w-5" />
-        <h1 className="text-[20px] text-gray-200 font-semibold">About Me</h1>
+        <SparklesIcon className="text-[#b49bff] h-4 w-4 sm:h-5 sm:w-5" />
+        <h1 className="text-base sm:text-lg md:text-[20px] text-gray-200 font-semibold">About Me</h1>
       </motion.div>
 
       {/* Main Content */}
-      <div className="max-w-6xl w-full flex flex-col gap-6 md:gap-8 z-10">
+      <div className="max-w-6xl w-full flex flex-col gap-5 sm:gap-6 md:gap-8 z-10">
         {/* About */}
         <motion.div
           variants={slideInFromLeft(0.5)}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="flex flex-col gap-4 bg-gradient-to-br from-[#0C0C1D]/80 to-[#1a0b2e]/60 backdrop-blur-md p-6 md:p-8 rounded-2xl border-2 border-[#7042f88b] shadow-2xl hover:border-purple-500 transition-all duration-300"
+          className="flex flex-col gap-3 sm:gap-4 bg-gradient-to-br from-[#0C0C1D]/80 to-[#1a0b2e]/60 backdrop-blur-md p-4 sm:p-5 md:p-8 rounded-xl sm:rounded-2xl border-2 border-[#7042f88b] shadow-2xl hover:border-purple-500 transition-all duration-300"
         >
-          <div className="flex items-center gap-3 mb-2">
-            <div className="p-2 bg-purple-500/20 rounded-lg">
-              <AcademicCapIcon className="h-5 w-5 md:h-6 md:w-6 text-purple-400" />
+          <div className="flex items-center gap-2 sm:gap-3 mb-1 sm:mb-2">
+            <div className="p-1.5 sm:p-2 bg-purple-500/20 rounded-lg">
+              <AcademicCapIcon className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-purple-400" />
             </div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
               Professional Summary
             </h2>
           </div>
-          <div className="h-1 w-20 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full mb-2"></div>
-          <p className="text-sm md:text-base text-gray-300 leading-relaxed">
+          <div className="h-0.5 sm:h-1 w-16 sm:w-20 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full mb-1 sm:mb-2"></div>
+          <p className="text-xs sm:text-sm md:text-base text-gray-300 leading-relaxed">
             Information Technology graduate with <span className="text-purple-400 font-semibold">8+ months of technical support experience</span> at DataVista Solutions. 
             Work involves troubleshooting, automation workflows, website and application testing, and data management. 
             Strong foundation in <span className="text-cyan-400 font-semibold">Python, C++, C#, JavaScript, HTML, CSS, and MySQL</span>.
           </p>
-          <p className="text-sm md:text-base text-gray-300 leading-relaxed">
+          <p className="text-xs sm:text-sm md:text-base text-gray-300 leading-relaxed">
             Skilled in <span className="text-purple-400 font-semibold">computer vision, automation, and data analytics</span> with hands-on experience in OpenCV and MediaPipe. 
             Actively pursuing full-stack development with focus on <span className="text-cyan-400 font-semibold">AI-driven and scalable web applications</span>.
           </p>
@@ -83,17 +83,17 @@ export const Encryption = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="flex flex-col gap-6 bg-gradient-to-br from-[#0C0C1D]/80 to-[#1a0b2e]/60 backdrop-blur-md p-6 md:p-8 rounded-2xl border-2 border-[#7042f88b] shadow-2xl hover:border-cyan-500 transition-all duration-300"
+          className="flex flex-col gap-4 sm:gap-5 md:gap-6 bg-gradient-to-br from-[#0C0C1D]/80 to-[#1a0b2e]/60 backdrop-blur-md p-4 sm:p-5 md:p-8 rounded-xl sm:rounded-2xl border-2 border-[#7042f88b] shadow-2xl hover:border-cyan-500 transition-all duration-300"
         >
-          <div className="flex items-center gap-3 mb-2">
-            <div className="p-2 bg-cyan-500/20 rounded-lg">
-              <CodeBracketIcon className="h-5 w-5 md:h-6 md:w-6 text-cyan-400" />
+          <div className="flex items-center gap-2 sm:gap-3 mb-1 sm:mb-2">
+            <div className="p-1.5 sm:p-2 bg-cyan-500/20 rounded-lg">
+              <CodeBracketIcon className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-cyan-400" />
             </div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
               Technical Expertise
             </h2>
           </div>
-          <div className="h-1 w-20 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full mb-2"></div>
+          <div className="h-0.5 sm:h-1 w-16 sm:w-20 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full mb-1 sm:mb-2"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             {skillsCategories.map((category, index) => (
@@ -150,32 +150,32 @@ export const Encryption = () => {
             <ul className="list-none text-gray-300 space-y-2.5 mt-3">
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Deliver technical support for <span className="text-cyan-400 font-semibold">50+ clients</span>, achieving <span className="text-cyan-400 font-semibold">~95% first-contact resolution</span></span>
+                <span>Delivered technical support for <span className="text-cyan-400 font-semibold">50+ clients</span>, achieving <span className="text-cyan-400 font-semibold">~95% first-contact resolution</span></span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Perform website and application testing, improving <span className="text-cyan-400 font-semibold">UX by ~30%</span></span>
+                <span>Performed website and application testing, improving <span className="text-cyan-400 font-semibold">UX by ~30%</span></span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Develop Python automation scripts, reducing <span className="text-cyan-400 font-semibold">manual workload by ~40%</span></span>
+                <span>Developed Python automation scripts, reducing <span className="text-cyan-400 font-semibold">manual workload by ~40%</span></span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Collaborate with cross-functional teams using <span className="text-cyan-400 font-semibold">Agile methodology</span></span>
+                <span>Collaborated with cross-functional teams using <span className="text-cyan-400 font-semibold">Agile methodology</span></span>
               </li>
             </ul>
           </div>
 
           <div className="flex flex-col gap-2 p-5 bg-[#0a0a1f]/50 rounded-xl border border-cyan-500/30">
             <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
-              Visiting Faculty
+              Mentorship
             </h3>
             <p className="text-gray-400 text-sm font-medium">Disha Classes | May 2024 – February 2025 | Mumbai</p>
             <ul className="list-none text-gray-300 space-y-2.5 mt-3">
               <li className="flex items-start gap-2">
                 <span className="text-cyan-400 mt-1">▹</span>
-                <span>Instructed <span className="text-purple-400 font-semibold">10+ students</span> in C, C++, HTML, CSS, and Python programming</span>
+                <span>Instructed <span className="text-purple-400 font-semibold">10+ people</span> in C, C++, HTML, CSS, and Python programming</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-cyan-400 mt-1">▹</span>
