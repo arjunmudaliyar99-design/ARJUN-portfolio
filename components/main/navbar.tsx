@@ -2,8 +2,24 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { NAV_LINKS, SOCIALS } from "@/constants";
 import { motion, AnimatePresence } from "framer-motion";
+
+export const Navbar = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const closeMenu = () => setIsMobileMenuOpen(false);
+
+  const getNavLinkHref = (link: string) => {
+    // If link starts with #, check if we're on home page
+    if (link.startsWith("#")) {
+      // If we're not on home page, redirect to home with hash
+      return pathname !== "/" ? `/${link}` : link;
+    }
+    return link;
+  };
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -36,7 +52,7 @@ export const Navbar = () => {
           {NAV_LINKS.map((link) => (
             <Link 
               key={link.title} 
-              href={link.link} 
+              href={getNavLinkHref(link.link)} 
               className="hover:text-[rgb(112,66,248)] transition font-medium whitespace-nowrap"
             >
               {link.title}
@@ -92,7 +108,7 @@ export const Navbar = () => {
               {NAV_LINKS.map((link) => (
                 <Link 
                   key={link.title} 
-                  href={link.link} 
+                  href={getNavLinkHref(link.link)} 
                   onClick={closeMenu} 
                   className="hover:text-[rgb(112,66,248)] transition"
                 >
