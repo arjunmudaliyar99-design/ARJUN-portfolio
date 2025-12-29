@@ -97,7 +97,7 @@ export default function BlogPost({ params }: PageProps) {
   }
 
   return (
-    <main className="min-h-screen bg-[#030014] text-white py-20 px-4">
+    <main className="min-h-screen bg-[#030014] text-white py-20 px-4 pt-[90px]">
       <div className="max-w-4xl mx-auto">
         <Link href="/blog" className="text-blue-400 hover:text-blue-300 mb-8 inline-block">
           ← Back to Blog

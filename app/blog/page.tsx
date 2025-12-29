@@ -28,8 +28,11 @@ const posts = [
 
 export default function BlogPage() {
   return (
-    <main className="min-h-screen bg-[#030014] text-white py-20 px-4">
+    <main className="min-h-screen bg-[#030014] text-white py-20 px-4 pt-[90px]">
       <div className="max-w-4xl mx-auto">
+        <Link href="/" className="text-blue-400 hover:text-blue-300 mb-8 inline-block">
+          ← Back to Home
+        </Link>
         <h1 className="text-4xl font-bold mb-8 text-center">Blog</h1>
         <p className="text-lg text-gray-300 mb-12 text-center">
           Insights on web development, design, and technology.
