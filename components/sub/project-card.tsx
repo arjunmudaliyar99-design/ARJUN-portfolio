@@ -55,8 +55,8 @@ export const ProjectCard = ({
           <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
           
           {/* Icon Header */}
-          <div className="relative flex items-center justify-between gap-3 md:gap-4 p-6 md:p-7 bg-gradient-to-r from-purple-500/15 to-cyan-500/15 border-b border-purple-500/30 group-hover:from-purple-500/25 group-hover:to-cyan-500/25 transition-all duration-500">
-            <div className="flex items-center gap-3 md:gap-4">
+          <div className="relative flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 md:gap-4 p-4 sm:p-6 md:p-7 bg-gradient-to-r from-purple-500/15 to-cyan-500/15 border-b border-purple-500/30 group-hover:from-purple-500/25 group-hover:to-cyan-500/25 transition-all duration-500">
+            <div className="flex items-center gap-2 sm:gap-3 md:gap-4 flex-wrap">
               {icons.map((Icon: any, idx: number) => (
                 <motion.div
                   key={idx}
@@ -64,9 +64,9 @@ export const ProjectCard = ({
                   whileInView={{ scale: 1, rotate: 0 }}
                   transition={{ delay: idx * 0.08, type: "spring", stiffness: 200 }}
                   whileHover={{ scale: 1.1 }}
-                  className="p-3 md:p-4 bg-gradient-to-br from-purple-500/25 to-cyan-500/25 rounded-xl group-hover:from-purple-500/40 group-hover:to-cyan-500/40 transition-all duration-300 shadow-lg"
+                  className="p-2 sm:p-3 md:p-4 bg-gradient-to-br from-purple-500/25 to-cyan-500/25 rounded-lg sm:rounded-xl group-hover:from-purple-500/40 group-hover:to-cyan-500/40 transition-all duration-300 shadow-lg"
                 >
-                  <Icon size={36} className="text-cyan-400 group-hover:text-cyan-300 transition-colors drop-shadow-lg" />
+                  <Icon size={24} className="sm:w-7 sm:h-7 md:w-9 md:h-9 text-cyan-400 group-hover:text-cyan-300 transition-colors drop-shadow-lg" />
                 </motion.div>
               ))}
             </div>
@@ -76,10 +76,10 @@ export const ProjectCard = ({
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
-                className="flex items-center gap-2 px-3 py-2 bg-red-500/20 border border-red-500/40 rounded-lg backdrop-blur-sm"
+                className="flex items-center gap-1.5 sm:gap-2 px-2 py-1.5 sm:px-3 sm:py-2 bg-red-500/20 border border-red-500/40 rounded-md sm:rounded-lg backdrop-blur-sm shrink-0"
               >
-                <MdSecurity className="text-red-400" size={20} />
-                <span className="text-xs font-bold text-red-300 uppercase tracking-wider">Confidential</span>
+                <MdSecurity className="text-red-400 w-4 h-4 sm:w-5 sm:h-5" />
+                <span className="text-[10px] sm:text-xs font-bold text-red-300 uppercase tracking-wider whitespace-nowrap">Confidential</span>
               </motion.div>
             )}
           </div>

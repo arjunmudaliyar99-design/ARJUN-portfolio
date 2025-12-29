@@ -83,34 +83,17 @@ export const Contact = () => {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 md:px-8 relative z-10 max-w-full">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="text-center mb-8 sm:mb-10 md:mb-12"
-        >
-          <motion.h2
-            variants={slideInFromLeft(0.5)}
-            className="text-4xl md:text-5xl font-bold text-white mb-4"
-          >
+        <div className="text-center mb-8 sm:mb-10 md:mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Touch</span>
-          </motion.h2>
-          <motion.p
-            variants={slideInFromLeft(0.7)}
-            className="text-gray-300 text-lg max-w-2xl mx-auto"
-          >
+          </h2>
+          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             Have a question or want to work together? Drop me a message!
-          </motion.p>
-        </motion.div>
+          </p>
+        </div>
 
         <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={slideInFromRight(0.5)}
-            className="relative"
-          >
+          <div className="relative">
             {/* Form Container */}
             <div className="relative bg-gradient-to-br from-[#0F0728]/80 to-[#1a0b3d]/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-12 border border-purple-500/20 shadow-2xl shadow-purple-500/10 w-full max-w-full">
               {/* Decorative Elements */}
@@ -263,7 +246,7 @@ export const Contact = () => {
                 </div>
               </form>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

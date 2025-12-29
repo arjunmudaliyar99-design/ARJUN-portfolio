@@ -30,7 +30,7 @@ export const siteConfig: Metadata = {
   },
   openGraph: {
     title: "Arjun ramaswamy Mudaliyar | Portfolio",
-    description: "Explore the portfolio of Arjun ramaswamy Mudaliyar, a skilled web developer specializing in React, Next.js, and modern web technologies. Discover innovative projects and creative designs.",
+    description: "Explore the portfolio of Arjun ramaswamy Mudaliyar.",
     url: "https://arjun-portfolio-wheat.vercel.app/", // Replace with actual domain
     siteName: "Arjun Portfolio",
     images: [
@@ -47,7 +47,7 @@ export const siteConfig: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Arjun ramaswamy Mudaliyar | Portfolio",
-    description: "Explore the portfolio of Arjun ramaswamy Mudaliyar, a skilled web developer specializing in React, Next.js, and modern web technologies. Discover innovative projects and creative designs.",
+    description: "Explore the portfolio of Arjun ramaswamy Mudaliyar.",
     images: ["/icon1.png"],
     creator: "@yourtwitterhandle", // Replace if applicable
   },
@@ -62,4 +62,4 @@ export const siteConfig: Metadata = {
       "max-snippet": -1,
     },
   },
-} as const;
+};
