@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Blog | ARJUN RAMASWAMY MUDALIYAR",
+  title: "Blog | Arjun ramaswamy Mudaliyar",
   description: "Read my latest thoughts on web development, React, Next.js, and more.",
 };
 

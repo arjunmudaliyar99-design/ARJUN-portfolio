@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://your-domain.com/sitemap.xml', // Replace with actual domain
+    sitemap: 'https://arjun-portfolio-wheat.vercel.app/sitemap.xml', // Replace with actual domain
   }
 }
