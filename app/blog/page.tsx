@@ -7,22 +7,40 @@ export const metadata = {
 
 const posts = [
   {
-    title: "Building a 3D Portfolio with React and Three.js",
-    slug: "3d-portfolio-react-threejs",
-    excerpt: "Learn how to create an immersive 3D portfolio website using React and Three.js for stunning visual effects.",
-    date: "2025-01-01",
+    title: "Real-Time Hand Tracking: Building a Virtual Watch Overlay with Python & OpenCV",
+    slug: "hand-tracking-opencv-mediapipe",
+    excerpt: "Explore how I built a real-time hand detection system using OpenCV and MediaPipe, achieving 21-point landmark tracking with dynamic watch overlay.",
+    date: "2024-07-15",
   },
   {
-    title: "Optimizing Next.js Apps for Better Performance",
-    slug: "nextjs-performance-optimization",
-    excerpt: "Tips and tricks to improve your Next.js application's loading speed and user experience.",
-    date: "2025-01-15",
+    title: "From Technical Support to Automation: My Journey at DataVista Solutions",
+    slug: "technical-support-automation-journey",
+    excerpt: "Discover how I achieved 95% first-contact resolution and built Python automation scripts that reduced manual workload by 40%.",
+    date: "2025-01-20",
   },
   {
-    title: "Mastering Framer Motion for Smooth Animations",
-    slug: "framer-motion-animations",
-    excerpt: "A comprehensive guide to creating beautiful animations with Framer Motion in React applications.",
-    date: "2025-01-30",
+    title: "Building an AI-Powered Animal Emergency Response Platform",
+    slug: "animal-emergency-platform-dialogflow",
+    excerpt: "Learn how I developed a university project connecting pet owners, vets, and rescue teams using Dialogflow and WhatsApp API integration.",
+    date: "2024-12-20",
+  },
+  {
+    title: "Full-Stack Web Development: Building EEMS Educational Management System",
+    slug: "eems-dashboard-fullstack-development",
+    excerpt: "A deep dive into building a multi-role educational platform with PHP/MySQL, role-based authentication, and secure database operations.",
+    date: "2025-01-25",
+  },
+  {
+    title: "Fitness Tracking Meets Wearable Technology: AyuSangam Project",
+    slug: "fitness-tracker-wearable-integration",
+    excerpt: "Building a personal fitness tracker integrating HRV, RHR, and sleep data from wearables with real-time analytics dashboards.",
+    date: "2025-01-28",
+  },
+  {
+    title: "From Mentoring to Leadership: My Experience Teaching Programming",
+    slug: "programming-mentorship-experience",
+    excerpt: "How I taught 10+ students C, C++, HTML, CSS, and Python with 90% satisfaction rating, and what I learned about effective technical education.",
+    date: "2025-01-22",
   },
 ];
 
