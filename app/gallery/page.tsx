@@ -10,24 +10,63 @@ const Gallery = () => {
   // Placeholder images 
   const images = [
     {
-      src: "/gallery/image1.jpg", 
+      src: "image1.jpg", 
       alt: "Gallery Image 1",
       title: "Moment 1"
     },
     {
-      src: "/gallery/image2.jpg",
+      src: "image2.jpg",
       alt: "Gallery Image 2",
       title: "Moment 2"
     },
     {
-      src: "/gallery/image3.jpg",
+      src: "image3.jpg",
       alt: "Gallery Image 3",
       title: "Moment 3"
     },
     {
-      src: "/gallery/image4.jpg",
+      src: "image4.jpg",
       alt: "Gallery Image 4",
       title: "Moment 4"
+    },
+    {
+      src: "image5.jpg", 
+      alt: "Gallery Image 5",
+      title: "Moment 5"
+    },
+    {
+      src: "image6.jpg",
+      alt: "Gallery Image 6",
+      title: "Moment 6"
+    },
+    {
+      src: "image7.jpg",
+      alt: "Gallery Image 7",
+      title: "Moment 7"
+    },
+    {
+      src: "image8.jpg",
+      alt: "Gallery Image 8",
+      title: "Moment 9"
+    },{
+      src: "image10.jpg", 
+      alt: "Gallery Image 10",
+      title: "Moment 10"
+    },
+    {
+      src: "image11.jpg",
+      alt: "Gallery Image 11",
+      title: "Moment 11"
+    },
+    {
+      src: "image12.jpg",
+      alt: "Gallery Image 12",
+      title: "Moment 12"
+    },
+    {
+      src: "image13.jpg",
+      alt: "Gallery Image 13",
+      title: "Moment 13"
     },
     // Add more images as needed
   ];
