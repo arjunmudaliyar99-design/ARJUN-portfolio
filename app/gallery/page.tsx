@@ -25,7 +25,7 @@ const Gallery = () => {
     { src: "/gallery/image10.jpg", alt: "Gallery Image 10", title: "Moment 10", category: "" },
     { src: "/gallery/image11.jpg", alt: "Gallery Image 11", title: "Moment 11", category: "" },
     { src: "/gallery/image12.jpg", alt: "Gallery Image 12", title: "Moment 12", category: "" },
-    { src: "/gallery/image13.jpg", alt: "Gallery Image 13", title: "Moment 13", category: "" },
+    
   ];
 
   const categories = ["All", "Personal", "Achievement", "Travel"];
