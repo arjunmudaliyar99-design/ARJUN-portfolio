@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "View my personal gallery showcasing various moments and achievements.",
 };
 
-
+const Gallery = () => {
   // Placeholder images 
   const images = [
     {
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
       title: "Moment 13"
     },
     // Add more images as needed
-  
+  ];
 
   return (
     <div className="min-h-screen bg-[#030014] text-white py-20 px-5 md:px-10">
