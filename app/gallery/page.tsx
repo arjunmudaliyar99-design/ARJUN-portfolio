@@ -29,6 +29,50 @@ const Gallery = () => {
       alt: "Gallery Image 4",
       title: "Moment 4"
     },
+    {
+      src: "/gallery/image5.jpg", 
+      alt: "Gallery Image 5",
+      title: "Moment 5"
+    },
+    {
+      src: "/gallery/image6.jpg",
+      alt: "Gallery Image 6",
+      title: "Moment 6"
+    },
+    {
+      src: "/gallery/image7.jpg",
+      alt: "Gallery Image 7",
+      title: "Moment 7"
+    },
+    {
+      src: "/gallery/image8.jpg",
+      alt: "Gallery Image 8",
+      title: "Moment 8"
+    },{
+      src: "/gallery/image9.jpg", 
+      alt: "Gallery Image 9",
+      title: "Moment 9"
+    },
+    {
+      src: "/gallery/image10.jpg",
+      alt: "Gallery Image 10",
+      title: "Moment 10"
+    },
+    {
+      src: "/gallery/image11.jpg",
+      alt: "Gallery Image 11",
+      title: "Moment 11"
+    },
+    {
+      src: "/gallery/image12.jpg",
+      alt: "Gallery Image 12",
+      title: "Moment 12"
+    },
+     {
+      src: "/gallery/image13.jpg",
+      alt: "Gallery Image 13",
+      title: "Moment 13"
+    },
     // Add more images as needed
   ];
 
