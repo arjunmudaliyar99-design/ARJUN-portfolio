@@ -28,7 +28,7 @@ const Gallery = () => {
     
   ];
 
-  const categories = ["All", "Personal", "Achievement", "Travel"];
+  const categories = [""];
   const filteredImages = filter === "All" 
     ? images 
     : images.filter(img => img.category === filter);
