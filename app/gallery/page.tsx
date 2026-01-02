@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "View my personal gallery showcasing various moments and achievements.",
 };
 
-const Gallery = () => {
+const image = () => {
   // Placeholder images 
   const images = [
     {
