@@ -56,7 +56,8 @@ export const Navbar = () => {
         </div>
 
         {/* Social Links (Desktop) */}
-        <div className="hidden lg:flex items-center gap-4 xl:gap-5">
+        <div className="hidden md:flex items-center gap-4 xl:gap-5">
+
           {SOCIALS.map(({ link, name, icon: Icon }) => (
             <Link 
               key={name} 
