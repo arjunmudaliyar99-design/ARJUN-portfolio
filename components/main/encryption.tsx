@@ -220,29 +220,41 @@ export const Encryption = () => {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {[
-                { name: "Introduction to Web Development", org: "Udemy" },
-                { name: "Introduction to Artificial Intelligence", org: "IBM" },
-                { name: "AI Ethics", org: "IBM" },
-                { name: "Power BI", org: "Simplilearn" },
-                { name: "Tableau Data Visualization", org: "Simplilearn" },
-                { name: "C / C++ Certification", org: "Certificationpal India" },
-                { name: "IT Workshop", org: "Jetking" },
-                { name: "Front Office Management", org: "Certificationpal India" }
+                { name: "JP Morgan", org: "JP Morgan Chase & Co.", pdf: "/certificates/jp-morgan.pdf" },
+                { name: "Introduction to Web Development", org: "Udemy", pdf: "/certificates/web-development-udemy.pdf" },
+                { name: "Introduction to Artificial Intelligence", org: "IBM", pdf: "/certificates/ai-ibm.pdf" },
+                { name: "AI Ethics", org: "IBM", pdf: "/certificates/ai-ethics-ibm.pdf" },
+                { name: "Power BI", org: "Simplilearn", pdf: "/certificates/power-bi-simplilearn.pdf" },
+                { name: "Tableau Data Visualization", org: "Simplilearn", pdf: "/certificates/tableau-simplilearn.pdf" },
+                { name: "C / C++ Certification", org: "Certificationpal India", pdf: "/certificates/cpp-certificationpal.pdf" },
+                { name: "IT Workshop", org: "Jetking", pdf: "/certificates/it-workshop-jetking.pdf" },
+                { name: "Front Office Management", org: "Certificationpal India", pdf: "/certificates/front-office-certificationpal.pdf" }
               ].map((cert, index) => (
-                <motion.div
+                <motion.a
                   key={cert.name}
+                  href={cert.pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.05 }}
-                  className="flex items-start gap-2 p-3 bg-gradient-to-r from-purple-500/10 to-cyan-500/10 rounded-lg border border-purple-500/20 hover:border-purple-400 hover:scale-105 transition-all duration-200"
+                  className="flex items-start gap-2 p-3 bg-gradient-to-r from-purple-500/10 to-cyan-500/10 rounded-lg border border-purple-500/20 hover:border-purple-400 hover:scale-105 transition-all duration-200 cursor-pointer group"
                 >
                   <span className="text-cyan-400 text-lg mt-0.5">✓</span>
-                  <div className="flex flex-col">
-                    <span className="text-gray-200 text-sm font-medium">{cert.name}</span>
+                  <div className="flex flex-col flex-1">
+                    <span className="text-gray-200 text-sm font-medium group-hover:text-purple-300 transition-colors">{cert.name}</span>
                     <span className="text-gray-400 text-xs">{cert.org}</span>
                   </div>
-                </motion.div>
+                  <svg 
+                    className="w-4 h-4 text-gray-400 group-hover:text-purple-400 transition-colors opacity-0 group-hover:opacity-100" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </motion.a>
               ))}
             </div>
           </div>
