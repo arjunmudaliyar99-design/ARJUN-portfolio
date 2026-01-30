@@ -41,10 +41,14 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-sm leading-relaxed sm:text-base sm:leading-relaxed md:text-lg lg:text-xl text-gray-300 max-w-[700px] mx-auto md:mx-0"
         >
-          Aspiring Full Stack & AI Developer combining{" "}
-          <span className="text-purple-400 font-semibold">web applications</span>,{" "}
-          <span className="text-cyan-400 font-semibold">automation</span>, and{" "}
-          <span className="text-pink-400 font-semibold">computer vision</span>{" "}
+          Entry-Level Java & Full-Stack Developer{" "}
+          <span className="text-purple-400 font-semibold">Java</span>,{" "}
+          <span className="text-cyan-400 font-semibold">automation</span>,{" "}
+          <span className="text-pink-400 font-semibold">Spring Boot</span>,{" "}
+          <span className="text-pink-400 font-semibold">REST APIs</span>,{" "}
+          <span className="text-pink-400 font-semibold">Generative AI</span>,{" "}
+          <span className="text-pink-400 font-semibold">MySQL</span>, and{" "}
+          <span className="text-pink-400 font-semibold">AWS</span>{" "}
           to solve real-world problems.
         </motion.p>
 
@@ -56,6 +60,50 @@ export const HeroContent = () => {
           <span className="text-purple-400 font-semibold">DataVista Solutions</span>{" "}
           | Mumbai, India
         </motion.p>
+
+        {/* Ongoing Programs / Training (Education)
+        <motion.div
+          variants={slideInFromLeft(1.05)}
+          className="w-full max-w-[700px] mx-auto md:mx-0 text-sm sm:text-base text-gray-300 mt-4"
+        >
+          <h3 className="text-md sm:text-lg font-semibold text-white mb-2">Ongoing Programs</h3>
+
+          <div className="mb-3">
+            <p className="font-semibold text-purple-400">Generative AI, DevOps & PWA Development Program</p>
+            <p className="text-xs sm:text-sm text-gray-400 mt-1">
+              Status: Ongoing (2026) — Learning Generative AI fundamentals, prompt engineering, and AI-assisted debugging using ChatGPT and GitHub Copilot. Building full-stack applications with React, Node.js, REST APIs, and secure authentication using JWT. Developing and deploying applications using CI/CD pipelines, Docker, and cloud platforms (Netlify, Render). Implementing Progressive Web App (PWA) features including service workers, caching strategies, offline support, and performance optimization. Applying AI tools across the entire SDLC for design, development, testing, and optimization.
+            </p>
+
+            <div className="mt-2 pl-2 border-l-2 border-purple-700/30">
+              <p className="font-medium text-sm text-white mt-1">Tech Stack (AI-Assisted Development)</p>
+              <ul className="text-xs text-gray-400 mt-1 list-disc list-inside">
+                <li>GitHub Copilot</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Node.js</li>
+                <li>React.js</li>
+                <li>REST APIs</li>
+                <li>Git & GitHub</li>
+              </ul>
+
+              <p className="text-xs text-gray-400 mt-2">
+                <strong>Why this works:</strong> It shows Copilot as a productivity tool, not as a replacement for skills.
+              </p>
+
+              <p className="text-xs text-gray-300 mt-2">Optional (Stronger Version):</p>
+              <p className="text-xs text-gray-400 mt-1">
+                <em>GitHub Copilot – AI-Assisted Software Development</em> — Leveraged GitHub Copilot to accelerate backend API development and frontend feature implementation. Used AI-generated suggestions for caching strategies, data seeders, and code optimization while maintaining manual code review. Integrated Copilot into daily Git-based workflows for faster iteration and reduced development time. Validated all AI-generated code through testing and debugging to ensure correctness and security.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <p className="font-semibold text-purple-400">Full Stack Development & Spring Boot Program (Coding Ninjas)</p>
+            <p className="text-xs sm:text-sm text-gray-400 mt-1">
+              Status: Ongoing (2026) — Strengthening programming fundamentals including variables, control flow, loops, functions, arrays, strings, and recursion. Practicing Data Structures & Algorithms (linked lists, stacks, queues, trees, BSTs, graphs, hashing, heaps, dynamic programming). Developing backend applications using Java and Spring Boot, RESTful APIs, and applying Spring Security concepts, MySQL/Hibernate integration, and exposure to microservices and basic system design concepts.
+            </p>
+            <p className="text-xs text-gray-400 mt-2">Tech Stack: Java, JavaScript, Spring Boot, MySQL, Hibernate, Spring Data JPA</p>
+          </div>
+        </motion.div> */}
 
         {/* Call-to-Action Button */}
         <motion.a

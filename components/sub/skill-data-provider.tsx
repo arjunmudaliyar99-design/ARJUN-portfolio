@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaPython, FaPhp, FaAngular, FaGithub } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaPython, FaPhp, FaAngular, FaGithub, FaJava, FaBrain, FaCogs } from "react-icons/fa";
 import { 
   SiJavascript, 
   SiTypescript, 
@@ -44,8 +44,10 @@ const iconMap: Record<string, any> = {
   SiGit,
   SiRedux,
   SiTailwindcss,
-  FaAngular,
   FaGithub,
+  FaJava,
+  FaBrain,
+  FaCogs,
 };
 
 export const SkillDataProvider = ({
