@@ -417,7 +417,7 @@ export const Encryption = () => {
               {[
                 { name: "JP Morgan", org: "JP Morgan Chase & Co.", pdf: "/certificates/jp-morgan.pdf" },
                 { name: "Introduction to Web Development", org: "Udemy", pdf: "/certificates/web-development-udemy.pdf" },
-                { name: "C / C++ Certification", org: "Certificationpal India", pdf: "/certificates/C and C++.pdf" },
+                { name: "C / C++ Certification", org: "Certificationpal India", pdf: "/certificates/Cpp.pdf" },
                 { name: "Solutions Architecture Job Simulation", org: "Certificationpal India", pdf: "/certificates/aws.pdf" },
                 { name: "AI Prompt Engineering Masterclass(Microsoft and  Reliance Digital", org: "Certificationpal India", pdf: "/certificates/AI prompt.pdf" },
                 { name: "Walmart", org: "Advanced Software Engineering Job", pdf: "/certificates/walmart.pdf" },
