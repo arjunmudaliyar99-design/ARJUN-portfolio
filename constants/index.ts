@@ -155,7 +155,9 @@ export const PROJECTS = [
     title: "Real-Time Hand Tracking & Virtual Watch Overlay",
     description: "Built a real-time computer vision application using Python, OpenCV, and MediaPipe to detect human hands via webcam with accurate landmark tracking. Overlays a dynamic virtual watch that maintains stable alignment during hand movement, demonstrating AI + Computer Vision expertise.",
     image: "/projects/project-1.webp",
-    link: "https://github.com/arjunmudaliyar99-design/Real-Time-Hand-Tracking-Virtual-Watch-Overlay-Computer-Vision-",
+    link: "https://luxe-time-e-commerce.vercel.app/",
+    liveUrl: "https://luxe-time-e-commerce.vercel.app/",
+    link2: "https://github.com/arjunmudaliyar99-design/Real-Time-Hand-Tracking-Virtual-Watch-Overlay-Computer-Vision-",
     tech: "Python • OpenCV • MediaPipe • Computer Vision",
     date: "June 2024 – July 2024",
     isConfidential: false
@@ -164,7 +166,9 @@ export const PROJECTS = [
     title: "Digital Animal Care & Emergency Response Platform",
     description: "Developed a full-stack digital platform connecting pet owners, veterinary doctors, and rescue teams to reduce response time in animal emergencies. Integrated WhatsApp API for instant alerts and implemented a Dialogflow chatbot for animal care recommendations and remote veterinary consultations.",
     image: "/projects/project-2.webp",
-    link: "https://github.com/arjunmudaliyar99-design/Digital-Animal-Care-Emergency-Response-Platform",
+    link: "https://animal-rescue-emergency-platform.vercel.app/",
+    liveUrl: "https://animal-rescue-emergency-platform.vercel.app/",
+    link2: "https://arjunmudaliyar99-design.github.io/Digital-Animal-Care-Emergency-Response-Platform/",
     tech: "HTML • CSS • JavaScript • Dialogflow • WhatsApp API",
     date: "October 2024 – December 2024",
     isConfidential: false
@@ -174,6 +178,7 @@ export const PROJECTS = [
     description: "PHP | MySQL | Multi-Role Dashboards Educational platform with Admin/Principal/Teacher/VP/HOD dashboards for exam scheduling and examiner assignment. 🔒 personal Confidential - Demo available on request.Some of the demo file has been uploaded to this github.",
     image: "/projects/eems-dashboard.webp",
     link: "https://github.com/arjunmudaliyar99-design/EEMS-Dashboard---External-Examiner-Management-System",
+    liveUrl: "",
     tech: "PHP • MySQL • JavaScript • Bootstrap • REST API",
     date: "In Progress",
     isConfidential: true
@@ -183,6 +188,7 @@ export const PROJECTS = [
     description: "FastAPI | PostgreSQL | Wearable Integration Gym workout tracker with HRV/RHR/sleep analytics from Whoop/Garmin wearables. Real-time progress dashboards. 🔒 Personal Project - Live demo available on request some of the file is uploaded in github for ur reference.",
     image: "/projects/ayusangam.webp",
     link: "https://github.com/arjunmudaliyar99-design/AyuSangam---Fitness-Health-Tracker",
+    liveUrl: "",
     tech: "FastAPI • Python • PostgreSQL • ML Analytics • IoT",
     date: "In Progress",
     isConfidential: true
@@ -249,5 +255,7 @@ export const NAV_LINKS = [
     link: "#contact",
   },
 ] as const;
+
+
 
 

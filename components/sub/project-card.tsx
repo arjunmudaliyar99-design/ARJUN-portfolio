@@ -10,6 +10,7 @@ type ProjectCardProps = {
   title: string;
   description: string;
   link: string;
+  liveUrl?: string;
   tech: string;
   date: string;
   isConfidential?: boolean;
@@ -27,6 +28,7 @@ export const ProjectCard = ({
   title,
   description,
   link,
+  liveUrl,
   tech,
   date,
   isConfidential = false,
@@ -119,18 +121,31 @@ export const ProjectCard = ({
                 <span className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
                 {date}
               </span>
-              <motion.span 
-                className="text-sm font-bold text-cyan-400 group-hover:text-cyan-300 transition-colors flex items-center gap-2"
-                whileHover={{ x: 5 }}
-              >
-                View on GitHub
-                <motion.span
-                  animate={{ x: [0, 5, 0] }}
-                  transition={{ repeat: Infinity, duration: 1.5 }}
+              <div className="flex items-center gap-4">
+                <motion.span 
+                  className="text-sm font-bold text-cyan-400 group-hover:text-cyan-300 transition-colors flex items-center gap-2"
+                  whileHover={{ x: 5 }}
                 >
-                  →
+                  View on GitHub
+                  <motion.span
+                    animate={{ x: [0, 5, 0] }}
+                    transition={{ repeat: Infinity, duration: 1.5 }}
+                  >
+                    →
+                  </motion.span>
                 </motion.span>
-              </motion.span>
+                {liveUrl && (
+                  <a
+                    href={liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-bold text-cyan-400 group-hover:text-cyan-300 transition-colors flex items-center gap-2"
+                  >
+                    View Live Project
+                    <span>→</span>
+                  </a>
+                )}
+              </div>
             </div>
           </div>
 

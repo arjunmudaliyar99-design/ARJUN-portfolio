@@ -34,6 +34,7 @@ export const Projects = () => {
               title={project.title}
               description={project.description}
               link={project.link}
+              liveUrl={project.liveUrl}
               tech={project.tech}
               date={project.date}
               isConfidential={project.isConfidential}
