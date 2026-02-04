@@ -153,7 +153,7 @@ export const OTHER_SKILL = [
 export const PROJECTS = [
   {
     title: "Real-Time Hand Tracking & Virtual Watch Overlay",
-    description: "Built a real-time computer vision application using Python, OpenCV, and MediaPipe to detect human hands via webcam with accurate landmark tracking. Overlays a dynamic virtual watch that maintains stable alignment during hand movement, demonstrating AI + Computer Vision expertise.",
+    description: "LUXETIME is a modern, luxury-focused e-commerce platform that redefines how users discover and shop for premium watches. Built with a Python backend and a Vite-powered frontend, the platform delivers a mobile-first, high-performance, and visually elegant experience inspired by top-tier luxury brands The standout feature of LUXETIME is its Virtual Watch Try-On allowing users to preview watches on their wrist in real time using camera-based technology. This bridges the gap between online shopping and in-store experience, helping users make confident purchase decisions.",
     image: "/projects/project-1.webp",
     link: "https://luxe-time-e-commerce.vercel.app/",
     liveUrl: "https://luxe-time-e-commerce.vercel.app/",
@@ -164,7 +164,7 @@ export const PROJECTS = [
   },
   {
     title: "Digital Animal Care & Emergency Response Platform",
-    description: "Developed a full-stack digital platform connecting pet owners, veterinary doctors, and rescue teams to reduce response time in animal emergencies. Integrated WhatsApp API for instant alerts and implemented a Dialogflow chatbot for animal care recommendations and remote veterinary consultations.",
+    description: "Built a full-stack web platform designed to assist in animal emergency situations by connecting pet owners, veterinary professionals, and rescue teams. Developed responsive user interfaces and backend workflows to enable rapid communication during emergencies. Integrated WhatsApp API for instant alert notifications and implemented an AI-powered chatbot using Dialogflow to provide basic animal care guidance and preliminary emergency recommendations..",
     image: "/projects/project-2.webp",
     link: "https://animal-rescue-emergency-platform.vercel.app/",
     liveUrl: "https://animal-rescue-emergency-platform.vercel.app/",
