@@ -153,7 +153,7 @@ export const OTHER_SKILL = [
 export const PROJECTS = [
   {
     title: "Real-Time Hand Tracking & Virtual Watch Overlay",
-    description: "LUXETIME is a modern, luxury-focused e-commerce platform that redefines how users discover and shop for premium watches. Built with a Python backend and a Vite-powered frontend, the platform delivers a mobile-first, high-performance, and visually elegant experience inspired by top-tier luxury brands The standout feature of LUXETIME is its Virtual Watch Try-On allowing users to preview watches on their wrist in real time using camera-based technology. This bridges the gap between online shopping and in-store experience, helping users make confident purchase decisions.",
+    description: "LUXETIME is a luxury-focused e-commerce platform that redefines how users discover and shop for premium watches. Built with a Python backend and a Vite-powered frontend, the platform delivers a high-performance, visually elegant experience inspired by top-tier luxury brands. Its standout feature is the Virtual Watch Try-On, which allows users to preview watches on their wrist in real time using camera-based hand tracking and computer vision. This bridges the gap between online shopping and the in-store experience, enabling confident and informed purchase decisions",
     image: "/projects/project-1.webp",
     link: "https://luxe-time-e-commerce.vercel.app/",
     liveUrl: "https://luxe-time-e-commerce.vercel.app/",
