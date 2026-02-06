@@ -13,10 +13,10 @@ const Gallery = () => {
   }, []);
 
   const images = [
-    { src: "/gallery/image1.jpg", alt: "Gallery Image 1", title: "Moment 1", category: "" },
-    { src: "/gallery/image2.jpg", alt: "Gallery Image 2", title: "Moment 2", category: "" },
-    { src: "/gallery/image3.jpg", alt: "Gallery Image 3", title: "Moment 3", category: "" },
-    { src: "/gallery/image4.jpg", alt: "Gallery Image 4", title: "Moment 4", category: "" },
+    { src: "/gallery/image3.jpg", alt: "Gallery Image 1", title: "Moment 1", category: "" },
+    { src: "/gallery/image4.jpg", alt: "Gallery Image 2", title: "Moment 2", category: "" },
+    { src: "/gallery/image1.jpg", alt: "Gallery Image 3", title: "Moment 3", category: "" },
+    { src: "/gallery/image2.jpg", alt: "Gallery Image 4", title: "Moment 4", category: "" },
     { src: "/gallery/image5.jpg", alt: "Gallery Image 5", title: "Moment 5", category: "" },
     { src: "/gallery/image6.jpg", alt: "Gallery Image 6", title: "Moment 6", category: "" },
     { src: "/gallery/image7.jpg", alt: "Gallery Image 7", title: "Moment 7", category: "" },
