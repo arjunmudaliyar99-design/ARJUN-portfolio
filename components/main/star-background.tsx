@@ -7,9 +7,10 @@ import { useState, useRef, Suspense } from "react";
 
 export const StarBackground = (props: PointsProps) => {
   const ref = useRef<any>(null);
-  const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 })
-  );
+  const [sphere] = useState<Float32Array>(() => {
+    const arr = new Float32Array(5000);
+    return random.inSphere(arr, { radius: 1.2 }) as Float32Array;
+  });
 
   useFrame((_state, delta) => {
     if (ref.current) {

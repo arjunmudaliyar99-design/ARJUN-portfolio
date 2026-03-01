@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 
 const Gallery = () => {
@@ -33,17 +33,17 @@ const Gallery = () => {
     ? images 
     : images.filter(img => img.category === filter);
 
-  const handlePrevious = () => {
+  const handlePrevious = useCallback(() => {
     if (selectedImage !== null) {
       setSelectedImage((selectedImage - 1 + images.length) % images.length);
     }
-  };
+  }, [selectedImage, images.length]);
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     if (selectedImage !== null) {
       setSelectedImage((selectedImage + 1) % images.length);
     }
-  };
+  }, [selectedImage, images.length]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -56,7 +56,7 @@ const Gallery = () => {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [selectedImage]);
+  }, [selectedImage, handleNext, handlePrevious]);
 
   return (
     <div className="min-h-screen bg-[#030014] text-white relative overflow-hidden">
