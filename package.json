@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Arjun Ramaswamy Mudaliyar",
+    "email": "arjunmudaliyar99@gmail.com",
+    "url": "https://github.com/arjunmudaliyar99-design"
   },
   "description": "Welcome to my full stack Next.js 14 space portfolio.",
   "keywords": [
@@ -45,15 +45,11 @@
     "html",
     "css"
   ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
-  },
-  "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
+  
+  "homepage": "https://github.com/arjunmudaliyar99-design/space-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/arjunmudaliyar99-design/space-portfolio/issues",
+    "email": "arjunmudaliyar99@gmail.com"
   },
   "funding": [
     {

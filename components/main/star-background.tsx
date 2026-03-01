@@ -8,7 +8,7 @@ import { useState, useRef, Suspense } from "react";
 export const StarBackground = (props: PointsProps) => {
   const ref = useRef<any>(null);
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(2000), { radius: 1.2 })
+    random.inSphere(new Float32Array(5000), { radius: 1.2 })
   );
 
   useFrame((_state, delta) => {
@@ -23,7 +23,7 @@ export const StarBackground = (props: PointsProps) => {
       <Points
         ref={ref}
         stride={3}
-        positions={new Float32Array(sphere)}
+        positions={sphere}
         frustumCulled
         {...props}
       >

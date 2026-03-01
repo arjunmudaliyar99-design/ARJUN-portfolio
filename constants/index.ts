@@ -93,10 +93,30 @@ export const SKILL_DATA = [
     icon: "SiTailwindcss",
     color: "#06B6D4",
   },
+  // {
+  //   skill_name: "Angular",
+  //   icon: "FaAngular",
+  //   color: "#DD0031",
+  // },
   {
-    skill_name: "Angular",
-    icon: "FaAngular",
-    color: "#DD0031",
+    skill_name: "Java",
+    icon: "FaJava",
+    color: "#5382A1",
+  },
+  {
+    skill_name: "Spring Boot",
+    icon: "FaCogs",
+    color: "#6DB33F",
+  },
+  {
+    skill_name: "GenAI",
+    icon: "FaBrain",
+    color: "#FFB300",
+  },
+  {
+    skill_name: "REST APIs",
+    icon: "SiExpress",
+    color: "#61DAFB",
   },
 ] as const;
 
@@ -459,5 +479,7 @@ export const NAV_LINKS = [
     link: "#contact",
   },
 ] as const;
+
+
 
 

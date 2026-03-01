@@ -33,7 +33,7 @@ export const SkillText = () => {
         variants={slideInFromRight(0.5)}
         className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
       >
-        From computer vision to full-stack development, delivering scalable solutions
+        From computer vision to JAVA Full-stack development, delivering scalable solutions
       </motion.div>
     </div>
   );
