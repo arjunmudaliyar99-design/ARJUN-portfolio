@@ -235,7 +235,7 @@ export const Encryption = () => {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Design and implement automated business processes using Python and Zoho Creator's Deluge scripting.</span>
+                <span>Design and implement automated business processes using Python and Zoho Creator&apos;s Deluge scripting.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
