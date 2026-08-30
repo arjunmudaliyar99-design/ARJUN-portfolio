@@ -9,7 +9,7 @@ export const Encryption = () => {
     {
       title: "Programming Languages",
       icon: CodeBracketIcon,
-      skills: ["Python", "C++", "C#", "JavaScript", "HTML5", "CSS3", "PHP (Training)"]
+      skills: ["Python", "C++", "C#", "JavaScript", "HTML5", "CSS3"]
     },
     {
       title: "AI/ML & Computer Vision",
@@ -67,18 +67,8 @@ export const Encryption = () => {
           </div>
           <div className="h-1 sm:h-2 w-16 sm:w-20 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full mb-1 sm:mb-2"></div>
           <p className="text-xs sm:text-sm md:text-base text-gray-300 leading-relaxed">
-  Entry-level <span className="text-purple-400 font-semibold">Java & Full-Stack Developer</span> and Information Technology graduate with 
-  <span className="text-purple-400 font-semibold"> 8+ months of hands-on software support experience</span> at DataVista Solutions. 
-  Experience includes troubleshooting backend systems, automation workflows, website and application testing, and data handling.
-</p>
-
-<p className="text-xs sm:text-sm md:text-base text-gray-300 leading-relaxed">
-  Strong foundation in <span className="text-cyan-400 font-semibold">Java, Spring Boot, REST APIs, MySQL, HTML, CSS, and JavaScript</span>, 
-  with working knowledge of <span className="text-cyan-400 font-semibold">React, Node.js, and Git</span>. 
-  Currently upskilling in <span className="text-purple-400 font-semibold">Java full stack ,Gen AI and DevOps practices and AI-assisted development</span> to build 
-  scalable, secure web applications.
-</p>
-
+            AI Product Engineer building intelligent systems — RAG pipelines, agentic workflows, and full-stack product experiences using Java (Spring Boot) and React.
+          </p>
         </motion.div>
 
         {/* Technical Skills Grid */}
@@ -138,10 +128,10 @@ export const Encryption = () => {
             {/* Primary Stack */}
             <div className="bg-gradient-to-br from-purple-500/10 to-cyan-500/10 p-5 rounded-xl border border-purple-500/40 hover:border-purple-400 transition-all duration-300">
               <h3 className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300 mb-3 flex items-center gap-2">
-                <span className="text-purple-400">⚡</span> Primary Stack (Focus Area)
+                <span className="text-purple-400">⚡</span> Primary Stack (AI Engineering Focus)
               </h3>
               <ul className="space-y-1.5">
-                {["Java", "Spring Boot", "RESTful APIs", "MySQL", "HTML5, CSS3, JavaScript", "Git & GitHub"].map((item) => (
+                {["RAG Pipelines", "Agentic AI", "LangGraph", "LLM Integration", "Java", "Spring Boot", "RESTful APIs", "React"].map((item) => (
                   <li key={item} className="text-sm text-gray-200 flex items-center gap-2">
                     <span className="text-cyan-400">▹</span> {item}
                   </li>
@@ -163,13 +153,13 @@ export const Encryption = () => {
               </ul>
             </div>
 
-            {/* AI-Assisted & Computer Vision */}
+            {/* AI Engineering & Computer Vision */}
             <div className="bg-gradient-to-br from-purple-500/10 to-cyan-500/10 p-5 rounded-xl border border-purple-500/40 hover:border-purple-400 transition-all duration-300">
               <h3 className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300 mb-3 flex items-center gap-2">
-                <span className="text-purple-400">🤖</span> AI-Assisted & Computer Vision
+                <span className="text-purple-400">🤖</span> AI Engineering & Computer Vision
               </h3>
               <ul className="space-y-1.5">
-                {["OpenCV", "MediaPipe", "Computer Vision Pipelines (foundational)", "Machine Learning Basics", "AI-assisted development (ChatGPT, GitHub Copilot)"].map((item) => (
+                {["RAG pipeline design", "Agentic workflow orchestration", "LangGraph implementation", "Prompt engineering", "OpenCV", "MediaPipe", "Computer Vision Pipelines (foundational)", "Machine Learning Basics"].map((item) => (
                   <li key={item} className="text-sm text-gray-200 flex items-start gap-2">
                     <span className="text-cyan-400 mt-0.5">▹</span> <span>{item}</span>
                   </li>
@@ -225,6 +215,39 @@ export const Encryption = () => {
           </div>
           <div className="h-1 w-20 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full mb-4"></div>
           
+          <div className="flex flex-col gap-2 p-5 bg-[#0a0a1f]/50 rounded-xl border border-purple-500/30">
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+             AI Product Engineer
+            </h3>
+            <p className="text-gray-400 text-sm font-medium">Barometer Technologies | 2025 – Present</p>
+            <ul className="list-none text-gray-300 space-y-2.5 mt-3">
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-1">▹</span>
+                <span>Rebuilt the legacy app and portal to full feature parity, owning the migration and enhancements end-to-end.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-1">▹</span>
+                <span>Architect and deploy RAG pipelines and Agentic AI workflows to improve data accessibility and decision-making within product modules.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-1">▹</span>
+                <span>Build responsive, modular full-stack applications using Java (Spring Boot) and React.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-1">▹</span>
+                <span>Design and implement automated business processes using Python and Zoho Creator's Deluge scripting.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-1">▹</span>
+                <span>Integrate LLMs into existing product ecosystems with a focus on performance and usability.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-1">▹</span>
+                <span>Present solutions and technical recommendations directly to the CEO to guide product decisions.</span>
+              </li>
+            </ul>
+          </div>
+
           <div className="flex flex-col gap-2 p-5 bg-[#0a0a1f]/50 rounded-xl border border-purple-500/30">
             <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
              Software Support Engineer
@@ -333,13 +356,13 @@ export const Encryption = () => {
                 </div>
                 
                 <p className="text-sm text-gray-200 leading-relaxed">
-                  Learning Generative AI fundamentals, prompt engineering, and AI-assisted debugging using ChatGPT and GitHub Copilot. Building full-stack applications with React, Node.js, REST APIs, and JWT authentication.
+                  Learning Generative AI fundamentals, prompt engineering, and AI-assisted debugging. Building full-stack applications with React, REST APIs, Docker, and CI/CD workflows.
                 </p>
 
                 <div className="pt-2 border-t border-purple-500/20">
                   <p className="text-xs font-semibold text-purple-300 mb-2">Tech Stack:</p>
                   <div className="flex flex-wrap gap-2">
-                    {["GitHub Copilot", "React.js", "Node.js", "REST APIs", "Docker", "CI/CD"].map((tech) => (
+                    {["React", "REST APIs", "Docker", "CI/CD", "Prompt Engineering", "RAG"].map((tech) => (
                       <span key={tech} className="px-2 py-1 bg-purple-500/20 text-gray-200 text-xs rounded-full border border-purple-500/30">
                         {tech}
                       </span>
@@ -383,29 +406,6 @@ export const Encryption = () => {
               </motion.div>
             </div>
 
-            {/* GitHub Copilot Highlight */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-              className="mt-4 p-5 bg-gradient-to-r from-purple-600/20 to-cyan-600/20 rounded-xl border-2 border-purple-500/40 hover:border-purple-400 transition-all duration-300"
-            >
-              <div className="flex items-start gap-3">
-                <span className="text-2xl">✨</span>
-                <div className="flex-1">
-                  <h4 className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300 mb-2">
-                    GitHub Copilot – AI-Assisted Software Development
-                  </h4>
-                  <p className="text-sm text-gray-200 mb-2">
-                    Leveraging AI-generated suggestions for backend API development, frontend features, caching strategies, and code optimization while maintaining rigorous manual code review.
-                  </p>
-                  <p className="text-xs text-gray-300 italic">
-                    Integrated Copilot into daily Git-based workflows • Validated all AI-generated code through testing • Reduced development time significantly
-                  </p>
-                </div>
-              </div>
-            </motion.div>
           </motion.div> 
 
           <div className="flex flex-col gap-4">

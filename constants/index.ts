@@ -24,24 +24,9 @@ export const SKILL_DATA = [
     color: "#F7DF1E",
   },
   {
-    skill_name: "TypeScript",
-    icon: "SiTypescript",
-    color: "#3178C6",
-  },
-  {
     skill_name: "React",
     icon: "FaReact",
     color: "#61DAFB",
-  },
-  {
-    skill_name: "Next.js",
-    icon: "SiNextdotjs",
-    color: "#000000",
-  },
-  {
-    skill_name: "Node.js",
-    icon: "FaNodeJs",
-    color: "#339933",
   },
   {
     skill_name: "GitHub",
@@ -54,9 +39,9 @@ export const SKILL_DATA = [
     color: "#3776AB",
   },
   {
-    skill_name: "PHP",
-    icon: "FaPhp",
-    color: "#777BB4",
+    skill_name: "RAG & Agents",
+    icon: "FaRobot",
+    color: "#8B5CF6",
   },
   {
     skill_name: "MySQL",

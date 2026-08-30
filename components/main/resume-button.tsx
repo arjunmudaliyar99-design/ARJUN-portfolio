@@ -19,7 +19,7 @@ export const ResumeButton = () => {
         >
           {/* View Resume Button */}
           <motion.a
-            href={`/resume.pdf?v=${Date.now()}`}
+            href={`/resume/Arjun_Mudaliyar_Resume_2026%20(new).pdf?v=${Date.now()}`}
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05, x: -5 }}
@@ -32,8 +32,8 @@ export const ResumeButton = () => {
 
           {/* Download Resume Button */}
           <motion.a
-            href={`/resume.pdf?v=${Date.now()}`}
-            download="Arjun_Ramasamy_Mudaliyar_Resume.pdf"
+            href={`/resume/Arjun_Mudaliyar_Resume_2026%20(new).pdf?v=${Date.now()}`}
+            download="Arjun Mudaliyar Resume 2026 (new).pdf"
             whileHover={{ scale: 1.05, x: -5 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-2 sm:gap-3 px-3 py-2 sm:px-5 sm:py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white rounded-full shadow-2xl shadow-cyan-500/50 transition-all duration-300 group border-2 border-cyan-400/30"

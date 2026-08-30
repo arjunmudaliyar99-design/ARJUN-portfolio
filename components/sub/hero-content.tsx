@@ -21,7 +21,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" />
           <h1 className="text-xs sm:text-sm md:text-base text-gray-200 font-bold tracking-wide whitespace-nowrap">
-            JAVA full stack developer
+            AI Product Engineer & Full-Stack Developer
           </h1>
         </motion.div>
 
@@ -41,15 +41,12 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-sm leading-relaxed sm:text-base sm:leading-relaxed md:text-lg lg:text-xl text-gray-300 max-w-[700px] mx-auto md:mx-0"
         >
-          Entry-Level Java & Full-Stack Developer{" "}
-          <span className="text-purple-400 font-semibold">Java</span>,{" "}
-          <span className="text-cyan-400 font-semibold">automation</span>,{" "}
-          <span className="text-pink-400 font-semibold">Spring Boot</span>,{" "}
-          <span className="text-pink-400 font-semibold">REST APIs</span>,{" "}
-          <span className="text-pink-400 font-semibold">Generative AI</span>,{" "}
-          <span className="text-pink-400 font-semibold">MySQL</span>, and{" "}
-          <span className="text-pink-400 font-semibold">AWS</span>{" "}
-          to solve real-world problems.
+          AI Product Engineer building intelligent systems —{" "}
+          <span className="text-purple-400 font-semibold">RAG pipelines</span>,{" "}
+          <span className="text-cyan-400 font-semibold">agentic workflows</span>, and{" "}
+          <span className="text-pink-400 font-semibold">full-stack product experiences</span>{" "}
+          with <span className="text-pink-400 font-semibold">Java (Spring Boot)</span> and{" "}
+          <span className="text-pink-400 font-semibold">React</span>.
         </motion.p>
 
         <motion.p
