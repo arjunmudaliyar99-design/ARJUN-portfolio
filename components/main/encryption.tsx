@@ -252,7 +252,7 @@ export const Encryption = () => {
             <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
              Software Support Engineer
             </h3>
-            <p className="text-gray-400 text-sm font-medium">DataVista Solutions | May 2024 – Present | Mumbai</p>
+            <p className="text-gray-400 text-sm font-medium">DataVista Solutions | May 2024 – Dec 2024 | Mumbai</p>
             <ul className="list-none text-gray-300 space-y-2.5 mt-3">
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
