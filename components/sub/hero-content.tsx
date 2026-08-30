@@ -53,9 +53,8 @@ export const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="text-xs leading-relaxed sm:text-sm sm:leading-relaxed md:text-base lg:text-lg text-gray-400 max-w-[700px] mx-auto md:mx-0"
         >
-          Technical Support Engineer at{" "}
-          <span className="text-purple-400 font-semibold">DataVista Solutions</span>{" "}
-          | Mumbai, India
+          AI Product Engineer at{" "}
+          <span className="text-purple-400 font-semibold">Barometer Technologies</span>
         </motion.p>
 
         {/* Ongoing Programs / Training (Education)
