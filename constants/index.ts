@@ -140,7 +140,7 @@ export const PROJECTS = [
     title: "ABC Group Mumbai — Trust Website & Member Portal (Client Project)",
     description: "Designed, built and launched abcgroupmumbai.com for the Association of Benevolent Chauffeur Group Mumbai, a registered trust. A 7-language Next.js site with online membership registration, Razorpay donations, an admin dashboard and full technical SEO.",
     fullDescription: "A production website and back office for a Mumbai chauffeurs' welfare trust (Reg. No. MU/000566/2023). Visitors can read about the association's social work, browse event galleries, hire a chauffeur, join as a member with document upload, and donate online through Razorpay. The committee manages members, renewals, membership plans, welfare loans, donations and a blacklist from a secure admin dashboard, with CSV import/export. One Next.js app serves the public site, the payment backend and the admin panel, backed by a libSQL (Turso) database. I handled the work end to end: requirements with the client, design, development, payments, SEO, hosting and cost planning, and deployment.",
-    image: "/projects/project-3.webp",
+    image: "/projects/abc-group.webp",
     liveLink: "https://abcgroupmumbai.com/",
     github: "https://github.com/arjunmudaliyar99-design/ASSOCIATION-OF-BENEVOLENT-CHAUFFEUR-ABC-GROUP-MUMBAI",
     tech: "Next.js 15 • React 19 • TypeScript • Tailwind CSS • libSQL/Turso • Razorpay • Netlify",
