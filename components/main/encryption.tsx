@@ -67,7 +67,12 @@ export const Encryption = () => {
           </div>
           <div className="h-1 sm:h-2 w-16 sm:w-20 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full mb-1 sm:mb-2"></div>
           <p className="text-xs sm:text-sm md:text-base text-gray-300 leading-relaxed">
-            AI Product Engineer building intelligent systems — RAG pipelines, agentic workflows, and full-stack product experiences using Java (Spring Boot) and React.
+            AI/ML Engineer at TransformHub building agentic AI systems that run in production — RAG pipelines, autonomous agents and LLM-powered workflow automation with Python, FastAPI, LangChain and LangGraph. Previously an AI Product Engineer at Barometer Technologies, shipping full-stack products with Java (Spring Boot) and React.
+          </p>
+          <p className="text-xs sm:text-sm md:text-base text-gray-300 leading-relaxed">
+            Outside my day job I build end-to-end products for clients. Most recently I designed, built and launched{" "}
+            <a href="https://abcgroupmumbai.com/" target="_blank" rel="noopener noreferrer" className="text-cyan-400 font-semibold hover:underline">abcgroupmumbai.com</a>{" "}
+            for the Association of Benevolent Chauffeur Group Mumbai, a registered trust: a 7-language Next.js site with online membership registration, Razorpay donations with webhook verification, an admin dashboard for members, renewals and loans, and full technical SEO (sitemaps, hreflang, structured data and Google Search Console).
           </p>
         </motion.div>
 
@@ -217,9 +222,30 @@ export const Encryption = () => {
           
           <div className="flex flex-col gap-2 p-5 bg-[#0a0a1f]/50 rounded-xl border border-purple-500/30">
             <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+             AI/ML Engineer
+            </h3>
+            <p className="text-gray-400 text-sm font-medium">TransformHub | Oct 2026 – Present | Mumbai (Hybrid)</p>
+            <ul className="list-none text-gray-300 space-y-2.5 mt-3">
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-1">▹</span>
+                <span>Build production-grade AI systems: RAG pipelines, autonomous AI agents and LLM-powered workflow automation.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-1">▹</span>
+                <span>Python and FastAPI at the core, with LangChain, LangGraph and LangFlow orchestrating the intelligence.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-1">▹</span>
+                <span>Work across product, engineering and DevOps to ship secure, scalable AI that businesses can rely on.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-2 p-5 bg-[#0a0a1f]/50 rounded-xl border border-purple-500/30">
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
              AI Product Engineer
             </h3>
-            <p className="text-gray-400 text-sm font-medium">Barometer Technologies | 2025 – Present</p>
+            <p className="text-gray-400 text-sm font-medium">Barometer Technologies | May 2026 – Oct 2026</p>
             <ul className="list-none text-gray-300 space-y-2.5 mt-3">
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
@@ -227,23 +253,23 @@ export const Encryption = () => {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Architect and deploy RAG pipelines and Agentic AI workflows to improve data accessibility and decision-making within product modules.</span>
+                <span>Architected and deployed RAG pipelines and Agentic AI workflows to improve data accessibility and decision-making within product modules.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Build responsive, modular full-stack applications using Java (Spring Boot) and React.</span>
+                <span>Built responsive, modular full-stack applications using Java (Spring Boot) and React.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Design and implement automated business processes using Python and Zoho Creator&apos;s Deluge scripting.</span>
+                <span>Designed and implemented automated business processes using Python and Zoho Creator&apos;s Deluge scripting.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Integrate LLMs into existing product ecosystems with a focus on performance and usability.</span>
+                <span>Integrated LLMs into existing product ecosystems with a focus on performance and usability.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-purple-400 mt-1">▹</span>
-                <span>Present solutions and technical recommendations directly to the CEO to guide product decisions.</span>
+                <span>Presented solutions and technical recommendations directly to the CEO to guide product decisions.</span>
               </li>
             </ul>
           </div>

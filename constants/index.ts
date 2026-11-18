@@ -137,6 +137,48 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
+    title: "ABC Group Mumbai — Trust Website & Member Portal (Client Project)",
+    description: "Designed, built and launched abcgroupmumbai.com for the Association of Benevolent Chauffeur Group Mumbai, a registered trust. A 7-language Next.js site with online membership registration, Razorpay donations, an admin dashboard and full technical SEO.",
+    fullDescription: "A production website and back office for a Mumbai chauffeurs' welfare trust (Reg. No. MU/000566/2023). Visitors can read about the association's social work, browse event galleries, hire a chauffeur, join as a member with document upload, and donate online through Razorpay. The committee manages members, renewals, membership plans, welfare loans, donations and a blacklist from a secure admin dashboard, with CSV import/export. One Next.js app serves the public site, the payment backend and the admin panel, backed by a libSQL (Turso) database. I handled the work end to end: requirements with the client, design, development, payments, SEO, hosting and cost planning, and deployment.",
+    image: "/projects/project-3.webp",
+    liveLink: "https://abcgroupmumbai.com/",
+    github: "https://github.com/arjunmudaliyar99-design/ASSOCIATION-OF-BENEVOLENT-CHAUFFEUR-ABC-GROUP-MUMBAI",
+    tech: "Next.js 15 • React 19 • TypeScript • Tailwind CSS • libSQL/Turso • Razorpay • Netlify",
+    date: "November 2026",
+    isConfidential: false,
+    features: [
+      "Available in 7 languages: English, Hindi, Marathi, Tamil, Telugu, Kannada and Malayalam",
+      "Online membership registration with document upload and client-side photo compression",
+      "Membership status lookup via secure token links",
+      "Razorpay Checkout donations with order creation, signature verification and webhooks",
+      "Thank-you flow plus privacy, terms and refund policy pages required for payment KYC",
+      "Admin dashboard: members, renewals, membership plans, welfare loans, donations and blacklist",
+      "Bulk member import and CSV export for the committee",
+      "Hire-a-chauffeur page with standard and luxury rate cards",
+      "Event galleries for food seva, children's home visits, grocery drives and driver felicitations",
+      "Committee section and WhatsApp, phone and map contact options",
+      "Animated, mobile-first UI with Framer Motion"
+    ],
+    technicalHighlights: [
+      "Technical SEO: per-language canonical URLs, hreflang alternates, multilingual sitemap.xml and robots.txt",
+      "Organization JSON-LD structured data and Google Search Console site verification",
+      "Mostly pre-rendered static pages served from a CDN for fast loads",
+      "Admin auth with bcrypt-hashed passwords and signed JWT sessions (jose)",
+      "Input validation with Zod on forms and API routes",
+      "Payment recording shared by the verify endpoint and the Razorpay webhook",
+      "Automated tests with Vitest for core flows, i18n and health checks",
+      "Documented hosting options and costs (Netlify + Turso free tier vs. Hostinger VPS / AWS Lightsail) with nightly backup scripts"
+    ],
+    problemStatement: "The association needed a trustworthy public presence that drivers could read in their own language, a simple way to register and donate online, and an easy back office for a volunteer committee — all at near-zero running cost.",
+    demonstrates: [
+      "End-to-end client delivery, from requirements to production launch",
+      "Payment gateway integration and webhook security",
+      "Internationalisation and technical SEO",
+      "Full-stack Next.js with server actions and API routes",
+      "Cost-aware cloud deployment for a non-profit"
+    ]
+  },
+  {
     title: "Multi-User Weather Dashboard",
     description: "A modern weather dashboard web application that provides real-time weather information for any city. Users can search for locations and get accurate multi-day forecasts, temperature, humidity, wind speed and visual icons.",
     fullDescription: "The Multi-User Weather Dashboard is a real-time weather forecasting web application that allows users to search for any city and view current weather conditions along with extended forecast data. The application integrates live weather APIs to fetch and display accurate meteorological data in a visually structured and responsive dashboard interface.",

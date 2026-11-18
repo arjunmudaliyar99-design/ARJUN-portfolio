@@ -41,20 +41,20 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-sm leading-relaxed sm:text-base sm:leading-relaxed md:text-lg lg:text-xl text-gray-300 max-w-[700px] mx-auto md:mx-0"
         >
-          AI Product Engineer building intelligent systems —{" "}
+          AI/ML Engineer building agentic AI systems that run in production —{" "}
           <span className="text-purple-400 font-semibold">RAG pipelines</span>,{" "}
-          <span className="text-cyan-400 font-semibold">agentic workflows</span>, and{" "}
-          <span className="text-pink-400 font-semibold">full-stack product experiences</span>{" "}
-          with <span className="text-pink-400 font-semibold">Java (Spring Boot)</span> and{" "}
-          <span className="text-pink-400 font-semibold">React</span>.
+          <span className="text-cyan-400 font-semibold">autonomous agents</span>, and{" "}
+          <span className="text-pink-400 font-semibold">LLM-powered workflow automation</span>{" "}
+          with <span className="text-pink-400 font-semibold">Python, FastAPI</span> and{" "}
+          <span className="text-pink-400 font-semibold">LangGraph</span>.
         </motion.p>
 
         <motion.p
           variants={slideInFromLeft(1)}
           className="text-xs leading-relaxed sm:text-sm sm:leading-relaxed md:text-base lg:text-lg text-gray-400 max-w-[700px] mx-auto md:mx-0"
         >
-          AI Product Engineer at{" "}
-          <span className="text-purple-400 font-semibold">Barometer Technologies</span>
+          AI/ML Engineer at{" "}
+          <span className="text-purple-400 font-semibold">TransformHub</span>
         </motion.p>
 
         {/* Ongoing Programs / Training (Education)
